@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>loader.css">
+  <title>Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template</title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template doesn't work properly without
+      JavaScript enabled. Please enable it to continue.</strong>
+  </noscript>
+  <div id="loading-bg">
+    <div class="loading-logo">
+      <img src="<%= BASE_URL %>logo.png" alt="Logo">
+    </div>
+    <div class="loading">
+      <div class="effect-1 effects"></div>
+      <div class="effect-2 effects"></div>
+      <div class="effect-3 effects"></div>
+    </div>
+  </div>
+  <div id="app">
+
+  </div>
+  <!-- built files will be auto injected -->
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyBNq2oEBBtmQiGf1mvVPeTtsZp6CM9Lgcc",
+      authDomain: "storelink-project-kyj.firebaseapp.com",
+      databaseURL: "https://storelink-project-kyj-default-rtdb.firebaseio.com",
+      projectId: "storelink-project-kyj",
+      storageBucket: "storelink-project-kyj.appspot.com",
+      messagingSenderId: "181015606821",
+      appId: "1:181015606821:web:e04a3fc344b54bd98571cc",
+      measurementId: "G-GBG14700M2"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+</body>
+
+</html>
