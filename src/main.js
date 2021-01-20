@@ -15,6 +15,10 @@ import App from './App.vue'
 import Vuesax from 'vuesax'
 import 'material-icons/iconfont/material-icons.css' //Material Icons
 import 'vuesax/dist/vuesax.css' // Vuesax
+import Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.css';
+Vue.config.productionTip = false;
+Vue.use(Antd);
 Vue.use(Vuesax)
 
 
